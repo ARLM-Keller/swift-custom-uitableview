@@ -13,6 +13,7 @@
 		84ABA69119842C78007D39EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ABA68F19842C78007D39EF /* Main.storyboard */; };
 		84ABA69319842C78007D39EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ABA69219842C78007D39EF /* Images.xcassets */; };
 		84ABA69F19842C78007D39EF /* LironTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABA69E19842C78007D39EF /* LironTests.swift */; };
+		84ABA6A9198436A3007D39EF /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ABA6A8198436A3007D39EF /* MyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		84ABA69819842C78007D39EF /* LironTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LironTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ABA69D19842C78007D39EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84ABA69E19842C78007D39EF /* LironTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LironTests.swift; sourceTree = "<group>"; };
+		84ABA6A8198436A3007D39EF /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				84ABA68919842C78007D39EF /* AppDelegate.swift */,
 				84ABA68B19842C78007D39EF /* FirstViewController.swift */,
 				84ABA68D19842C78007D39EF /* SecondViewController.swift */,
+				84ABA6A8198436A3007D39EF /* MyCell.swift */,
 				84ABA68F19842C78007D39EF /* Main.storyboard */,
 				84ABA69219842C78007D39EF /* Images.xcassets */,
 				84ABA68719842C78007D39EF /* Supporting Files */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84ABA68E19842C78007D39EF /* SecondViewController.swift in Sources */,
+				84ABA6A9198436A3007D39EF /* MyCell.swift in Sources */,
 				84ABA68A19842C78007D39EF /* AppDelegate.swift in Sources */,
 				84ABA68C19842C78007D39EF /* FirstViewController.swift in Sources */,
 			);
@@ -401,6 +405,7 @@
 				84ABA6A419842C78007D39EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84ABA6A519842C78007D39EF /* Build configuration list for PBXNativeTarget "LironTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +414,7 @@
 				84ABA6A719842C78007D39EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
